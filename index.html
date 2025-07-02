@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Rafly</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- POPUP WELCOME -->
+  <div id="welcome-popup" class="popup">
+    <div class="popup-content">
+      <h2>Selamat Datang!</h2>
+      <p>Terima kasih telah mengunjungi portofolio saya.</p>
+      <button id="enter-btn">Masuk</button>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="main-content" class="hidden">
+    <header>
+      <div class="container">
+        <h1 class="brand">Portofolio</h1>
+        <nav>
+          <ul class="nav">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <img src="rafly.jpg" alt="Foto Profil" class="hero-img top-img" />
+      <div class="hero-content">
+        <h2 class="fade-in">Halo, saya <span>Muhamad Rafly</span></h2>
+        <p class="fade-in-delay">Mahasiswa Teknik Informatika</p>
+        <a href="#about" class="btn fade-in-delay2">Tentang Saya</a>
+      </div>
+    </section>
+
+    <section id="about" class="section fade-in-section">
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya Rafly, seorang mahasiswa Teknik informatika yang tertarik dengan dunia coding, UI/UX, dan pengembangan web, saya  memiliki minat besar dalam pengembangan web dan teknologi digital, saya terus belajar dan berkembang agar suatu hari bisa menjadi bagian dari perubahan besar di dunia digital.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt-bg fade-in-section">
+      <div class="container">
+        <h2>Proyek</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Aplikasi Cuaca</h3>
+            <p>Membuat website cuaca dengan API</p>
+          </div>
+          <div class="project-card">
+            <h3>Website Penitipan Barang</h3>
+            <p>web sederhana untuk mengelola proses penitipan barang, mulai dari input data, pemantauan status, hingga pengambilan barang oleh pemilik.
+</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section fade-in-section">
+      <div class="container">
+        <h2>Kontak</h2>
+        <p>Email: <a href="mailto:Muhammad.rafly0305@gmail.com">Muhammad.rafly0305@gmail.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/muhamad-rafly-165306371/</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Dibuat dengan ❤️ oleh Muhamad Rafly. </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
